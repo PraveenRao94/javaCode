@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // for(let i=1;i<=5;i++)
+      // {
+
+      //  for(let j=1;j<=i;j++)
+      // {
+      //   document.write('0'+j+" ");
+      //  }
+      //  document.write('<br>')
+      // }
+      // var a=40;
+      // if(a==20)
+      // {
+      // document.write("a is equal to 20");
+      // }
+      // else if(a==5)
+      // {
+      // document.write("a is equal to 5");
+      // }
+      // // else if(a==30)
+      // // {
+      // // document.write("a is equal to 30");
+      // // }
+      // else
+      // {
+      // document.write("a is not equal to 20, 50 or 30");
+      // }
+
+      // var a=10;
+      // do{
+      //     console.log(a)
+      //     a++;
+      // }while(a<=15)
+
+      // for(let i = 5; i>=1; i--){
+      //     for(let k = 1; k<=i; k++){
+
+      // document.write(k)
+
+      //     }
+      // document.write('<br>')
+
+      // }
+
+      // for(let i = 1; i<=5; i++)
+      // {
+      //             for(let k=1; k<=i; k++)
+      //             {
+      //                 document.write(k)
+
+      //     }
+      // document.write('<br>')
+      // }
+
+      /////// String/////////
+
+      // var str = ("apple orange")
+
+      // console.log(str.indexOf("pl"))
+      // console.log(str.lastIndexOf("e"))
+      // console.log(str.charAt(2))
+      // console.log(str.charCodeAt(3))
+
+      // ////find the alpha////
+
+      // var i = "happy";
+      // if( i.codePointAt(0)>=65 || i.codePointAt(0)<=96)
+      // {
+      //     console.log("its a alpha");
+      // }
+
+      // console.log(i.substring(2,3))
+      // console.log(i.split("a"))
+      // console.log(i.length)
+      // console.log(i.replace('a','A'))
+      // console.log(i.toUpperCase())
+      // console.log(i.toLowerCase())
+      // console.log(i.search('a'))
+
+      // ///////arrays////
+
+      // var arr = [1,2,3,4,5,true,false]
+
+      // console.log(arr.length)
+      // console.log(arr[3])
+
+      // for( i=0; i<arr.length; i++)
+      // {
+      //     console.log(arr[i]);
+      // }
+
+      // console.log(arr.push(3))
+      // console.log(arr)
+
+      // console.log(arr.pop())
+      // console.log(arr)
+
+      // console.log(arr.unshift("ee sala cup namde"))
+      // console.log(arr)
+
+      // console.log(arr.shift())
+      // console.log(arr)
+
+      // console.log(arr.includes('1'))
+
+      // let ar1= [8,9]
+      // console.log(arr.concat(ar1))
+
+      // console.log(arr.slice(3,5))
+      // console.log(arr)
+
+      // console.log(arr.slice(4,0,6))
+
+      ///////////// Object /////////////////
+
+      // const num = {
+
+      //     one : 1,
+      //     two : 2,
+      //     three : 3,
+      //     four : 4,
+      //     six : "apple"
+
+      // }
+
+      // console.log(num.one);
+      // console.log(num["two"]);
+
+      // const five = 5;
+
+      // console.log(num.three + five)
+
+      // const fruit = "apple";
+      // console.log(num.three + " " + fruit)
+
+      // delete num.four
+      // console.log(num)
+
+      // ///////// Pre defined object//////////
+
+      // const math = new Maths()
+      // console.log(math.max(25,55,44));
+
+      ///////////// date object/////////////
+
+      // const date = new Date();
+
+      // console.log(date);
+      // console.log(date.getDate());
+      // console.log(date.getTime());
+
+      //////////////////Funtions///////////////////
+
+      // function fname(num1, num2 ){
+
+      // console.log(num1+num2);
+
+      // }
+      // fname(4,5);
+
+      // const aname = (num1 , num2 ) => {
+
+      //     const add = num1 + num2;
+      //     return add;
+
+      // }
+
+      // const mul = aname(2,2);
+      // console.log(mul);
+
+      // const sub = function() {
+      //     console.log("a")
+      // }
+
+      // sub();
+
+      /////////////////////////////// object with funtion
+
+      // function emp(id,name,salary){
+      // this.id=id;
+      // this.name=name;
+      // this.salary=salary;
+      // }
+      // b=new emp(103,"Vimal Jaiswal",30000);
+
+      // document.write(b.id+" "+b.name+" "+b.salary);
+
+      /////////////////////////////////////////////////////////////////////////////////////
+
+      // let arr = [1,2,3];
+      // for( i= 0; i<arr.length; i++){
+      //     console.log(arr[i]);
+      // }
+
+      ////////////////////// Nested funtion ///////////////////////
+
+      // function sayhello (msg){
+
+      //     function print() {
+      //         console.log(`hello ${msg}`);
+      //     }
+      // print();
+      // }
+
+      // sayhello("world");
+
+      ////////////////////////////////////////////////////////////////////////////////////////
+
+      // const myNames = ["Oluwatobi", "Sofela"];
+      // const bio = { ...myNames, runs: "codesweetly.com" };
+
+      // console.log(bio);
+      function add(a, b) {
+        return a - b;
+      }
+
+      let res = add(2, "1");
+
+      console.log(res);
+    </script>
+  </body>
+</html>

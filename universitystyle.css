@@ -1,0 +1,113 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Background{
+
+background-image: url(images/banner.png);
+width: 100%;
+min-height:100vh;
+background-position: center;
+background-size:cover;
+position: relative;
+z-index: -1;
+opacity: 0.5rem;
+
+
+} 
+
+
+.navbar ul{
+    background-color: transparent
+     
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.navbar li{
+float: left;
+display: block;
+overflow: auto;
+padding: 20px;
+/* border: 1px solid lightgrey; */
+border-top: none;
+border-bottom: none;
+}
+
+.navbar li:last-child{
+    float: right;
+    padding-top: 0px;
+}
+
+.navbar li:first-child{
+    border-left: none;
+}
+
+.texas{
+
+    color: aliceblue;
+    text-align: center;
+}
+
+.logo{
+
+    width: 50px;
+    position: relative;
+    left: -10px;
+    top: 14px;
+
+   
+}
+
+.navbar li:hover{
+
+    background-color:lightgray
+}
+
+.headerH{
+
+    font-size:3rem;
+text-align: center;
+color: black;
+position: relative;
+top: 150px;
+left: -100px;
+}
+
+.pp{
+
+    max-width: 500px;
+    height: 80px;
+     background-color:transparent;
+    margin: auto;
+    position: relative;
+    top: 160px; 
+
+    text-align: center;
+    
+}
+.headerH b{
+    color: rgb(224, 143, 14);
+}
+.about{
+    /* background-image: url(images/about.jpg);
+    background-position: center;
+    background-size: cover; */
+    max-width: 500px;
+    height: 200px;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    top: 11rem;
+    left: 30rem;
+    
+
+    
+}

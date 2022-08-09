@@ -1,0 +1,53 @@
+
+
+        .box{
+
+        height: 550px !important;
+        width: 320px !important;
+        background-color: aliceblue !important;
+        margin: auto !important;
+        margin-top: 50px !important;
+       
+        }
+        .font{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+            text-align: center !important;
+            font-size: x-large !important;
+            padding-top: 22px !important;
+   
+        }
+        
+    .p2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        padding-bottom: 30px !important;
+        text-align: center !important;
+    }
+
+    .textarea{ 
+    width: 100% !important;
+    color: rgb(0, 0, 0) !important;
+    background: transparent !important;
+   
+    border: none !important;
+    outline: none !important;
+}
+.submit{
+    background-color: rgb(13, 146, 133) !important;
+    text-align: center !important;
+    border: 1px !important;
+    width: 296px !important;
+    height: 34px !important;
+    margin: 11.7px !important;
+    color: aliceblue !important;
+}
+.fotter{
+    text-align: center !important;
+    font-size: smaller !important;
+    margin: 0px !important;
+}
+.end{
+    color: aliceblue !important;
+    text-align: center !important;
+}
+
+      

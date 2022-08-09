@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      ////////////////////////////////////////////// construct method 1st one is normal and 2nd one is enherritance//////////////////
+      //   const PersonClExp = class {};
+
+      //   // class declaration
+
+      //   class PersonCl {
+      //     constructor(name, birthYear) {
+      //       this.firstName = name;
+      //       this.birthYear = birthYear;
+      //     }
+
+      //     //All of the methods that we write in the class outside of the constructor will be on the prototype of the object and not on the objects themselves
+      //     calcAge() {
+      //       return 2022 - this.birthYear;
+      //     }
+      //   }
+      //   const jessica = new PersonCl("Jessica", 1982);
+      //   console.log(jessica);
+
+      //   console.log(jessica.calcAge());
+
+      /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+      /*const Person = function (name, birthYear) {
+              this.firstName = name;
+              this.birthYear = birthYear;
+            };
+
+            Person.prototype.calcAge = function () {
+              console.log(2022 - this.birthYear);
+            };
+
+            // Child
+            const Student = function (name, birthYear, course) {
+              //    this.firstName = name;
+              //    this.birthYear = birthYear;
+              Person.call(this, name, birthYear);
+              this.course = course;
+            };
+            // Linking prototypes
+            Student.prototype = Object.create(Person.prototype);
+
+            Student.prototype.greet = function () {
+              console.log(`My name is ${this.firstName} and I study ${this.course}`);
+            };
+
+            const peter = new Student("Peter", 1997, "Electronics");
+            peter.greet();
+            peter.calcAge();*/
+      /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      ///////////////////////////////////////////////////ES6 class ////////////////////////////////////////////////////////////
+
+      // Inheritance in ES6 classes
+      /*class PersonCl {
+              constructor(name, birthyear) {
+                this.firstName = name;
+                this.birthyear = birthyear;
+              }
+              calcAge() {
+                console.log(2022 - this.birthyear);
+              }
+              greet() {
+                console.log("Greet called in Parent");
+              }
+            }
+
+            const satishh = new PersonCl("rao", 1994);
+            satishh.calcAge();
+            satishh.greet();
+            console.log(satishh);
+
+            class StudentCl extends PersonCl {
+              constructor(name, birthyear, course) {
+                super(name, birthyear);
+                this.course = course;
+              }
+
+              greet() {
+                console.log(
+                  `My name is ${this.firstName} and I study ${this.course}`
+                );
+              }
+            }
+            const peter = new StudentCl("Peter", 1997, "Electronics");
+            console.log(peter);
+            peter.calcAge();
+            peter.greet();*/
+
+      ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+      // Encapsulation
+
+      /*class Student {
+              //1) Public field
+              lang = navigator.language;
+
+              //2) Private field
+              #marks;
+
+              constructor(name, id, marks) {
+                this.name = name;
+                this.id = id;
+                this.#marks = marks;
+              }
+
+              getMarks() {
+                return this.#marks;
+              }
+
+              greet() {
+                return console.log(`My name is ${this.name}`);
+              }
+            }
+
+            const peter = new Student("Peter", 101, 75);
+            console.log(peter);
+            console.log(peter.getMarks());*/
+      ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+      //////////////////////////////Promise ////////////////////////
+
+      const p = new Promise((pass, fail) => {
+        const a = 45;
+        const b = 40;
+        if (a > b) {
+          console.log(" a is >");
+        } else {
+          console.log(" b is >");
+        }
+      });
+
+      p.then((data) => {
+        console.log(data);
+      }).catch((data1) => {
+        console.log(data2);
+      });
+    </script>
+  </body>
+</html>

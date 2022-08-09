@@ -1,0 +1,41 @@
+.firstDiv{
+    
+    font-size: 100px;
+}
+
+#firstDiv{
+    background-color: aliceblue;
+}
+
+#home1{
+    
+    font-size: 50px;
+    color: chartreuse !important;
+}
+#home2{
+background-color: cyan;
+font-size: 50px;
+color: darkblue;
+border: 40px solid;
+
+}
+
+
+.movecenter{
+    text-align: center;
+}
+
+
+.back{
+    color: chartreuse;
+}
+
+.word{
+
+    word-spacing: 10px;
+}
+.box{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+}

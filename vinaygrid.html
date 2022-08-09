@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+.grid{
+
+    display: grid;
+    grid-template-areas: "header 0 0 0  "
+    "marquee marquee navbar navbar";
+    grid-gap: 4em;
+}
+.navbar,
+.marquee,
+.header{
+    border: 1px solid red;
+
+}
+
+.header{
+    grid-area: header;
+}
+.marquee{
+
+    grid-area: marquee;
+
+}
+
+.navbar{
+
+grid-area: navbar;
+
+}
+li{
+    display: inline;
+}
+</style>
+
+
+</head>
+
+
+
+<body>
+
+    <div class="grid">
+
+   
+   <div class="header">
+<aside class="img">
+
+    <img src="images/emojie.png" alt="indian army">
+
+</aside>
+<div class=" marquee">
+<marquee behavior="scroll" direction="">Vinay</marquee>
+
+</div>
+
+<div class="navbar">
+    <ul>
+        <li><a href="">vinay</a></li>
+        <li><a href="">loda</a></li>
+        <li><a href="">Mahalakshmi</a></li>
+        <li><a href="">pallavi</a></li>
+    </ul>
+    
+</div>
+
+</div>
+</div>
+</body>
+</html>

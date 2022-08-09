@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+/////////////// constructor funtion////////
+
+// const Person = function ( name ,  year)
+// {
+//     this.firstName = name;
+//     this.birthYear = year;
+//     this.age = 2022 - this.birthYear;
+
+// }
+
+// const praveen = new Person("rao" , 1994)
+// console.log(praveen)
+
+// const pepsi = new Person("satish" , 1990)
+// console.log(pepsi)
+
+
+// Person.prototype.calAge = function() {
+
+// console.log(2022 - this.birthYear)
+// }
+
+// praveen.calAge();
+// pepsi.calAge();
+
+
+
+/////////////////////////////////////EX2///////////////////////////////////////
+
+
+
+// const Car = function ( make , km) 
+// {
+
+//     this.make = make;
+//     this.km = km; 
+//     // this.totalTravelled = 5000 - this.km
+// }
+
+// Car.prototype.travelledsofar = function(totalkm){
+
+//     console.log(totalkm - this.km)
+// }
+
+
+
+// const firstHighway = new Car("bmw" , 2000 );
+// console.log(firstHighway);
+
+// firstHighway.travelledsofar(10000);
+
+// firstHighway.hasOwnProperty("make");
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////ES6////////////////////////////////////////////
+
+// class Person {
+//     constructor ( name , year){
+
+//         this.firstName = name;
+//         this.birthYear = year;
+ 
+ 
+//    }
+
+// //    Calage (){
+
+// //     console.log( 2022 - this.birthYear)
+// //    }
+
+
+// }
+
+// const Praveen = new Person ( "praveen" , 1994)
+
+// console.log(Praveen);
+
+// Person.prototype.nanAge = function(currentyr)
+// {
+
+//     console.log( currentyr - this.birthYear)
+
+// }
+
+// Praveen.nanAge(2022);
+
+
+
+////////////// ex2 /////////////////
+
+class Car1 {
+
+    constructor( make , km){
+
+    
+    this.modelName = make;
+    this.noOfkm = km;
+}
+}
+
+
+const bmmw = new Car1 ( "audi" , 2000);
+
+console.log(bmmw);
+   </script> 
+</body>
+</html>

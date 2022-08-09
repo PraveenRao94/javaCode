@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+
+    <style>
+        body{
+            margin: 0px;
+            color: chartreuse;
+            background-color: black;
+            box-sizing: border-box;
+        }
+.gridd{
+
+    display: grid;
+    grid-template-areas: "header header header header"
+    "markH markH markH markH"
+    "section section section aside"
+    "box1 box2 box3 box4"
+    "markF markF markF markF"
+    "footer footer footer footer";
+grid-gap: 1em;
+}
+
+.header,
+.section,
+.aside,
+.box1,
+.box2,
+.box3,
+.box4,
+.footer{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+.header{
+grid-area: header;
+text-align: center;
+background-color: rgb(255, 255, 255);
+border: 2px solid chartreuse;
+/* margin-bottom: 30px; */
+
+}
+
+.section{
+    grid-area: section;
+
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.box1{
+
+    grid-area: box1;
+}
+.box2{
+
+grid-area: box2;
+} 
+.box3{
+
+grid-area: box3;
+} 
+ 
+.box4{
+
+grid-area: box4;
+}
+
+.markH{
+    grid-area: markH;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+.markF{
+    grid-area: markF;
+    font-size: 50px;
+    padding: 0px;
+}
+.footer{
+    background-color: rgb(255, 255, 255);
+    grid-area: footer;
+    text-align: center;
+    border: 2px solid chartreuse;
+    margin-top: -33px;
+}
+ </style>
+</head>
+<body>
+   
+    <div class="gridd">
+
+        <header class="header"><h1>My Website</h1></header>
+        <!-- <div class="markH"> -->
+        <!-- <marquee behavior="scroll" direction="left" scrollamount="25">Mysore Maharaja Vinay ge </marquee> -->
+    <!-- </div> -->
+        <section class="section">
+
+            <h1>Welcome to My Site</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum placeat doloribus minus eos quo deserunt? Consequatur ipsum aut reiciendis. Dolore beatae soluta est laborum similique autem labore obcaecati nam a!</p>
+
+        </section>
+
+        <aside class="aside">
+            <h2>Contact US</h2>
+            <ul>
+                    <li>item1</li>
+                    <li>item2</li>
+                    <li>item3</li>
+
+            </ul>
+
+        </aside>
+        
+<div class="box1">
+<h3>Heading</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iusto quam dignissimos itaque, odit ex quia alias tenetur perspiciatis laudantium reprehenderit excepturi? Repellat velit eaque, aliquam totam culpa nam praesentium?</p>
+</div>
+
+<div class="box2">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iusto quam dignissimos itaque, odit ex quia alias tenetur perspiciatis laudantium reprehenderit excepturi? Repellat velit eaque, aliquam totam culpa nam praesentium?</p>
+
+</div>
+
+<div class="box3">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iusto quam dignissimos itaque, odit ex quia alias tenetur perspiciatis laudantium reprehenderit excepturi? Repellat velit eaque, aliquam totam culpa nam praesentium?</p>
+
+</div>
+
+<div class="box4">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iusto quam dignissimos itaque, odit ex quia alias tenetur perspiciatis laudantium reprehenderit excepturi? Repellat velit eaque, aliquam totam culpa nam praesentium?</p>
+
+<!-- </div>
+<div class="markF">
+<marquee behavior="up" direction="Right" scrollamount="33">"Jai" "Jai" "Jai"</marquee>
+</div> -->
+<footer class="footer"><h4> Copyright &copy; 2022 </h4></footer>
+    </div>
+
+</body>
+</html>

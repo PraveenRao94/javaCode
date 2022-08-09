@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+}
+
+.header{
+    background-color: black;
+    
+   
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.ulinline{
+    background-color: black;
+}
+
+.ulinline li{
+    display: inline;
+    padding: 10px;
+    
+
+    
+}
+
+.ulinline li a{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
